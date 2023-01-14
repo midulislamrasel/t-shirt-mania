@@ -1,0 +1,8 @@
+.shirt_area{
+    border: 2px solid turquoise;
+    border-radius: 10px;
+    padding: 20px;
+}
+.shirt_area img{
+    height: 250px;
+}
