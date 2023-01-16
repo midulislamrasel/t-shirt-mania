@@ -22,6 +22,8 @@ const Home = () => {
     const remaining = cart.filter(ts => ts._id !== shirts._id);
     setCard(remaining)
   }
+
+
   return (
     <div className='home-container'>
         <div className='shirt-container'>
@@ -35,10 +37,10 @@ const Home = () => {
           </div> 
 
         <div>
-        <Cart
-          cart={cart}
-          handelRemoveFromCart={handelRemoveFromCart}
-        ></Cart>      
+            <Cart
+              cart={cart}
+              handelRemoveFromCart={handelRemoveFromCart}
+            ></Cart>      
         </div>  
     </div>
 
